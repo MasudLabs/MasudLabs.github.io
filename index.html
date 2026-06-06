@@ -3,160 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abdullah Al Masud - Amazon PPC Specialist & Advertising Expert | Helping FBA sellers reduce ACoS and scale with data-driven PPC campaigns.">
-    <title>Abdullah Al Masud | Amazon PPC Specialist</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Amazon PPC Expert | Amazon Growth Assessment</title>
     <style>
-        :root {
-            --primary: #25D366;
-            --dark: #0f172a;
-            --light: #f8fafc;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
-            background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
-            color: #e2e8f0;
-            line-height: 1.6;
-        }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-        
-        header {
-            background: rgba(15, 23, 42, 0.95);
-            backdrop-filter: blur(10px);
-            position: fixed;
-            width: 100%;
-            z-index: 1000;
-            border-bottom: 1px solid #334155;
-        }
-        nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; }
-        .logo { font-size: 1.8rem; font-weight: bold; color: var(--primary); }
-        
-        .hero {
-            padding: 160px 0 100px;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3.2rem;
-            margin-bottom: 1rem;
-            background: linear-gradient(90deg, #60a5fa, #a5b4fc);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .hero p {
-            font-size: 1.4rem;
-            max-width: 700px;
-            margin: 0 auto 2rem;
-            color: #94a3b8;
-        }
-        .btn {
-            display: inline-block;
-            padding: 14px 32px;
-            margin: 10px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s;
-        }
-        .btn-whatsapp {
-            background: #25D366;
-            color: white;
-        }
-        .btn-whatsapp:hover {
-            background: #20ba5a;
-            transform: translateY(-3px);
-        }
-        
-        section { padding: 80px 0; }
-        h2 { font-size: 2.5rem; text-align: center; margin-bottom: 3rem; color: #e2e8f0; }
-        
-        .skills, .projects { background: #1e2937; }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        .card {
-            background: #334155;
-            padding: 2rem;
-            border-radius: 16px;
-            transition: transform 0.3s;
-        }
-        .card:hover { transform: translateY(-10px); }
-        
-        footer {
-            text-align: center;
-            padding: 3rem 0;
-            background: #0f172a;
-            border-top: 1px solid #334155;
-        }
+        :root { --bg: #050505; --card: rgba(255, 255, 255, 0.06); --text: #ffffff; --accent: #FF9900; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.6; }
+        .container { max-width: 900px; margin: auto; padding: 60px 20px; }
+        .hero { text-align: center; padding: 100px 0; }
+        h1 { font-size: 3.5rem; margin-bottom: 10px; letter-spacing: -1px; }
+        .btn { background: var(--accent); color: #000; padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; transition: transform 0.2s; cursor: pointer; border: none; }
+        .btn:hover { transform: scale(1.05); }
+        .glass-card { background: var(--card); backdrop-filter: blur(15px); padding: 40px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        footer { text-align: center; padding: 60px; font-size: 0.9rem; color: #888; }
+        a { color: var(--accent); text-decoration: none; }
+        input[type="checkbox"] { margin-right: 10px; accent-color: var(--accent); }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">MasudLabs</div>
-            </nav>
-        </div>
-    </header>
 
+<div class="container">
     <section class="hero">
-        <div class="container">
-            <h1>Abdullah Al Masud</h1>
-            <p><strong>Amazon PPC Specialist &amp; Advertising Expert</strong><br>
-            Helping Amazon FBA sellers scale profitably through data-driven Sponsored Products campaigns, ACoS optimization, and smart bidding strategies.</p>
-            
-            <a href="https://wa.me/8801821818183" class="btn btn-whatsapp" target="_blank">
-                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
-            </a>
-            <a href="mailto:abdullahalmasd@gmail.com" class="btn" style="background:#64748b; color:white;">Email Me</a>
+        <h1>Is Your Amazon Product Ready to Scale?</h1>
+        <p>Take the 60-second Amazon Growth Assessment and discover your PPC readiness.</p>
+        <a href="#assessment" class="btn">Start Free Assessment</a>
+    </section>
+
+    <section id="assessment" class="glass-card">
+        <h2>Amazon Product Validation Tool</h2>
+        <div id="quiz" style="display: grid; gap: 15px; margin: 20px 0;">
+            <label><input type="checkbox" class="q" value="6.667"> Product price above $25</label>
+            <label><input type="checkbox" class="q" value="6.667"> Net margin above 30%</label>
+            <label><input type="checkbox" class="q" value="6.667"> Professional product photography</label>
+            <label><input type="checkbox" class="q" value="6.667"> A+ Content implemented</label>
+            <label><input type="checkbox" class="q" value="6.667"> Product video uploaded</label>
+            <label><input type="checkbox" class="q" value="6.667"> Brand Registry active</label>
+            <label><input type="checkbox" class="q" value="6.667"> More than 20 reviews</label>
+            <label><input type="checkbox" class="q" value="6.667"> Conversion rate above 10%</label>
+            <label><input type="checkbox" class="q" value="6.667"> Strong keyword search volume</label>
+            <label><input type="checkbox" class="q" value="6.667"> Demand validated</label>
+            <label><input type="checkbox" class="q" value="6.667"> Product differentiation exists</label>
+            <label><input type="checkbox" class="q" value="6.667"> No dominant competitor</label>
+            <label><input type="checkbox" class="q" value="6.667"> Existing PPC data available</label>
+            <label><input type="checkbox" class="q" value="6.667"> Current ACoS below 50%</label>
+            <label><input type="checkbox" class="q" value="6.667"> Inventory available for scaling</label>
+        </div>
+        <button onclick="calculateScore()" class="btn">Calculate Readiness Score</button>
+        <h2 id="scoreDisplay" style="margin-top:20px;"></h2>
+    </section>
+
+    <section class="glass-card">
+        <h2>Consultant Toolkit</h2>
+        <div class="grid">
+            <div class="card"><h3>Helium 10</h3><p>Advanced keyword intelligence.</p></div>
+            <div class="card"><h3>Jungle Scout</h3><p>Data-driven market validation.</p></div>
+            <div class="card"><h3>Keepa</h3><p>Moat analysis and pricing data.</p></div>
         </div>
     </section>
 
-    <section class="skills">
-        <div class="container">
-            <h2>Core Expertise</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>📊 Sponsored Products & Brands</h3>
-                    <p>Full campaign architecture, keyword harvesting, and negative keyword management.</p>
-                </div>
-                <div class="card">
-                    <h3>🎯 ACoS & ROAS Optimization</h3>
-                    <p>Reducing wasted ad spend and maximizing return on advertising.</p>
-                </div>
-                <div class="card">
-                    <h3>🔍 Search Term Analysis</h3>
-                    <p>Turning search term reports into winning keyword strategies.</p>
-                </div>
-            </div>
-        </div>
+    <section class="glass-card">
+        <h2>About Masud</h2>
+        <p>I am a data-driven Amazon growth specialist. My focus is simple: eliminate wasted ad spend, protect your organic rank, and scale profitability sustainably. I view Amazon ads as a structural engineering challenge.</p>
+        <a href="https://calendly.com/abdullahalmasd/amazon-advertisement" class="btn">Book Free PPC Audit</a>
     </section>
+</div>
 
-    <section class="projects">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>🚀 Amazon PPC Portfolio</h3>
-                    <p>Complete toolkit: Keyword Research Tool, Search Term Analyzer, ACoS Optimizer, Bid Simulator &amp; more.</p>
-                    <a href="https://github.com/MasudLabs/MasudLaBs-PPC-Portfolio" target="_blank">View Portfolio →</a>
-                </div>
-            </div>
-        </div>
-    </section>
+<footer>
+    <p>
+        <a href="https://www.linkedin.com/in/mrabdullah-al-masud/" target="_blank">LinkedIn</a> | 
+        <a href="https://wa.me/8801821818183" target="_blank">WhatsApp</a> | 
+        <a href="https://four-acapella-554.notion.site/masudlabs-ppc-portfolio">Notion Portfolio</a>
+    </p>
+    <p>&copy; 2026 Masud Labs</p>
+</footer>
 
-    <footer>
-        <div class="container">
-            <p><strong>Open to Remote Amazon PPC VA &amp; Advertising Specialist Roles</strong><br>
-            Chattogram, Bangladesh | Worldwide</p>
-            <p style="margin-top: 1rem;">
-                <a href="https://wa.me/8801821818183" target="_blank">WhatsApp</a> • 
-                <a href="mailto:abdullahalmasd@gmail.com">Email</a> • 
-                <a href="https://github.com/MasudLabs">GitHub</a>
-            </p>
-        </div>
-    </footer>
+<script>
+    function calculateScore() {
+        let score = 0;
+        document.querySelectorAll('.q:checked').forEach(() => score += 6.667);
+        const finalScore = Math.round(score);
+        let status = "", recommendation = "";
+
+        if (finalScore < 40) {
+            status = "NOT READY";
+            recommendation = "Focus on baseline assets: Professional photography, A+ content, and securing reviews before starting PPC.";
+        } else if (finalScore < 70) {
+            status = "GROWTH POTENTIAL";
+            recommendation = "You have a solid foundation. Optimize your conversion rate and negative-keyword harvesting to stabilize ACoS before aggressive scaling.";
+        } else {
+            status = "READY TO SCALE";
+            recommendation = "Your product is primed for expansion. Let’s implement a tiered bidding architecture to maximize your profitable reach.";
+        }
+
+        document.getElementById('scoreDisplay').innerHTML = 
+            `Your Score: ${finalScore}/100 - <strong>${status}</strong><br>` +
+            `<small style="font-size: 0.5em; color: #888; display:block; margin-top:10px;">${recommendation}</small>`;
+    }
+</script>
+
 </body>
 </html>
